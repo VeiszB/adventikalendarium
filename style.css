@@ -1,0 +1,556 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url("img/wedding-landing-background.png");
+  font-family: "Libre Baskerville", serif;
+}
+
+/* HEADER */
+header {
+  height: 100vh;
+  width: 100%;
+  background-image: url("img/header1.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+/* Nav Section */
+.main-head {
+  z-index: 2;
+  position: relative;
+}
+
+#logo img {
+  position: absolute;
+  height: 12%;
+  width: auto;
+  margin-top: 3rem;
+  margin-left: 0rem;
+}
+
+.header-content {
+  height: 100vh;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header-text {
+  background-color: rgba(0, 0, 0, 0.493);
+  width: 50%;
+  height: auto;
+  text-align: center;
+  padding: 3rem;
+}
+
+.header-text h2 {
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+  color: #d9e0e0;
+  text-transform: uppercase;
+  font-family: "Libre Baskerville", serif;
+  font-weight: lighter;
+  padding-top: 2rem;
+}
+
+.header-text h2::after {
+  display: block;
+  content: "";
+  background-color: #fff;
+  height: 1.8px;
+  width: 20rem;
+  margin: 1rem auto;
+}
+
+.header-text h1 {
+  color: #d2ba87;
+  font-family: "Great Vibes", cursive;
+  font-size: 10rem;
+  font-weight: lighter;
+  padding: 1rem 0rem;
+}
+
+.header-text h3 {
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+  color: #d9e0e0;
+  font-family: "Libre Baskerville", serif;
+  font-weight: lighter;
+}
+
+.header-text h3::before,
+.header-text h3::after {
+  display: inline-block;
+  content: "";
+  background-color: #fff;
+  height: 0.8px;
+  width: 2.3rem;
+  vertical-align: middle;
+  margin: 0 0.8rem;
+}
+
+.header-button {
+  height: 20vh;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header-button a {
+  color: #d2ba87;
+  text-decoration: none;
+}
+
+.button-rolunk {
+  padding: 2rem 6rem;
+  background: #941f1f;
+  border-style: none;
+  color: #d2ba87;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-family: "Libre Baskerville", serif;
+  font-weight: lighter;
+  cursor: pointer;
+  border-radius: 1rem;
+  border: 0.5px solid rgba(255, 255, 255, 0.397);
+}
+
+.button-kalendarium {
+  padding: 2rem 6rem;
+  background: #941f1f;
+  border-style: none;
+  color: #d2ba87;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-family: "Libre Baskerville", serif;
+  font-weight: lighter;
+  cursor: pointer;
+  border-radius: 1rem;
+  border: 0.5px solid rgba(255, 255, 255, 0.397);
+}
+
+/* ABOUT */
+
+.about {
+  width: 100%;
+  height: auto;
+  color: #d2ba87;
+  background-image: url("img/mintared.png");
+  background-position: center;
+  background-size: contain;
+}
+.about-content {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-card img {
+  height: 23vh;
+  width: auto;
+  /*animation: img-shake 1.5s ease-in-out 0.5s infinite,
+          img-shake 2.5s infinite ease alternate-reverse 2s;*/
+  animation: img-shake 3s ease infinite alternate;
+  transform-origin: bottom;
+}
+
+.about-text {
+  width: 65%;
+  margin: auto;
+}
+
+.about h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 5rem;
+  padding-top: 6rem;
+  color: #d2ba87;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.about p {
+  width: 95%;
+  margin: auto;
+  font-size: 1.8rem;
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+  line-height: 4rem;
+}
+
+/* KINEK */
+
+.kinek {
+  width: 100%;
+  margin: auto;
+  color: #444349;
+  background-image: url("img/pattern2.png");
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 8rem;
+}
+
+.kinek h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 5rem;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+  color: #941f1f;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.kinek h3 {
+  font-family: "Great Vibes", cursive;
+  font-size: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  color: #941f1f;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.kinek p {
+  font-size: 2rem;
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+  line-height: 4rem;
+  color: #941f1f;
+}
+
+/* KINEK ABLAK */
+
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script);
+
+.kinek-ablak {
+  margin-bottom: 5rem;
+}
+
+.kinek-ablak ul {
+  font-family: "Great Vibes", cursive;
+  list-style-type: none;
+  width: 80%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  user-select: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.kinek-ablak li {
+  font-weight: 200;
+  background-color: #ffefb9;
+  box-sizing: border-box;
+  border-radius: 6px;
+  display: inline-block;
+  color: #34502b;
+  cursor: pointer;
+  font-size: 3.2rem;
+  padding: 4rem 2.5rem;
+  margin: 2rem;
+  width: 20vh;
+  height: 20vh;
+  line-height: 4rem;
+  text-align: center;
+  position: relative;
+  vertical-align: top;
+  user-select: none;
+  perspective: 800px;
+  transition: all 0.4s ease-in-out;
+}
+
+.door {
+  user-select: none;
+  color: #ffefb9;
+  font-size: 4rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #34502b;
+  box-sizing: border-box;
+  border-top: 2px #ffefb9 dashed;
+  border-right: 2px #ffefb9 dashed;
+  border-bottom: 2px #ffefb9 dashed;
+  border-left: 1px #ffefb9 solid;
+  border-radius: 6px;
+  padding: 3rem 2rem;
+  width: 20vh;
+  height: 20vh;
+  transform-origin: 0 40%;
+  transition: all 0.4s ease-in-out;
+  transform-style: preserve-3d;
+}
+
+.door p {
+  margin-top: 4rem;
+  font-family: "Great Vibes", cursive;
+  color: #ffefb9;
+  font-size: 4rem;
+}
+
+.current .door {
+  background-color: #34502b;
+}
+
+.current .door.open {
+  color: #ffefb9;
+}
+
+.revealed {
+  user-select: none;
+}
+
+#message {
+  box-sizing: border-box;
+  color: #34502b;
+  display: none;
+  font-size: 2.4rem;
+  padding: 2rem;
+  background: #eddecb;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.open {
+  box-shadow: 14px 0px 15px -1px rgba(0, 0, 0, 0.2);
+  color: #ffefb9;
+  transform: rotate3d(0, 1, 0, -98deg);
+}
+
+.jiggle {
+  animation: jiggle 0.5s infinite;
+  transform: rotate(-1deg);
+}
+
+@keyframes jiggle {
+  0% {
+    transform: rotate(-1deg);
+  }
+  50% {
+    transform: rotate(1deg);
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .kinek-ablak li {
+    margin: 25px 20px;
+  }
+}
+
+/* TARTALOM */
+
+.tartalom {
+  width: 100%;
+  height: auto;
+  background: #34502b;
+}
+
+.tartalom h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 5rem;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+  color: #d2ba87;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.tartalom p {
+  width: 95%;
+  margin: auto;
+  font-size: 2rem;
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #941f1f;
+  padding-top: 2rem;
+  padding-bottom: 7rem;
+  color: #d2ba87;
+}
+
+.tartalom ul {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tartalom img {
+  height: 23vh;
+  width: auto;
+  /*animation: img-shake 1.5s ease-in-out 0.5s infinite,
+          img-shake 2.5s infinite ease alternate-reverse 2s;*/
+  animation: img-shake 3s ease infinite alternate;
+  transform-origin: bottom;
+}
+
+/* CONTACT */
+
+.contact {
+  width: 100%;
+  margin: auto;
+  color: #444349;
+  background-image: url("img/pattern2.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.contact h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  color: #444349;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.contact p {
+  font-size: 1.8rem;
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+  margin: 2rem 0rem;
+}
+
+.contact a {
+  color: #941f1f;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+
+.contact a:hover {
+  color: #ce6b5d;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+}
+
+.social a {
+  padding: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+/* FOOTER */
+
+footer {
+  height: auto;
+  width: 100%;
+  background-image: url("img/mintared.png");
+  background-position: center;
+  background-size: contain;
+  color: #ffefb9;
+  font-size: 1.4rem;
+  padding: 3rem;
+  font-family: "Muli", sans-serif;
+  text-align: center;
+}
+
+footer a {
+  color: #bd806e;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  /* HEADER */
+  header {
+    background-position: 70% center;
+  }
+
+  .header-text {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .header-text h2 {
+    font-size: 2rem;
+    text-transform: none;
+  }
+
+  .header-text h2::after {
+    height: 0.8px;
+  }
+
+  .header-text h1 {
+    font-size: 5rem;
+    padding: 0.8rem 0rem;
+  }
+}
+
+@keyframes img-shake {
+  from {
+    transform: rotateZ(-3deg);
+  }
+  to {
+    transform: rotateZ(5deg);
+  }
+}
+
+/* ROLUNK ALOLDAL*/
+
+.muzeumtortenet {
+  width: 100%;
+  height: auto;
+  color: #d2ba87;
+  background-image: url("img/mintared.png");
+  background-position: center;
+  background-size: contain;
+}
+
+.museumtortenet-content {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  padding-bottom: 6rem;
+}
+
+.museumtortenet-content h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 5rem;
+  padding-top: 7rem;
+  padding-bottom: 1rem;
+  color: #d2ba87;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.museumtortenet-content p {
+  font-size: 1.8rem;
+  font-family: "Libre Baskerville", serif;
+  padding: 1.5rem 2rem;
+  line-height: 3rem;
+}
+
+.irodalomhaza-img {
+  float: right;
+  width: 80vh;
+  height: auto;
+  margin: 4rem;
+  border: 5px solid #d2ba87;
+}
