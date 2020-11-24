@@ -20,7 +20,34 @@ function getRandom(min, max) {
 
   $( document ).ready(function() {
 
-    var words = ["<a href='../img/calandarbackground4.png'>Ady</a>", "ipsum ", "delor", "sit", "amet", "consect", "adipisci", "elit,", "sed.", "Eiusmod", "tempor", "a", "enim", "minim", "season", "nulla", "dolore", "sint", "id", "est", "laboris", "ut.", "aute", "laborum", "toe"];
+    var words = 
+    [
+      "<a href='../img/calandarbackground4.png'>Ady</a>", 
+      "ipsum ", 
+      "delor", 
+      "<a href='../kalendarium/hogomb4.html'>Hógömb</a>", 
+      "amet", 
+      "consect", 
+      "adipisci", 
+      "elit,", 
+      "sed.", 
+      "Eiusmod", 
+      "tempor", 
+      "a", 
+      "enim", 
+      "minim", 
+      "season",
+       "nulla", 
+       "dolore", 
+       "sint", 
+       "id", 
+       "est", 
+       "laboris", 
+       "ut.", 
+       "aute", 
+       "laborum", 
+       "toe"
+      ];
   
     var message = "";
     var date = new Date();

@@ -595,12 +595,12 @@ footer a {
 
 /* KALANDÁRIUM ALOLDAL */
 
-.adventikalendarium-head img {
+#whitelogo {
   position: relative;
-  height: 30rem;
+  height: 15%;
   width: auto;
-  padding-top: 2rem;
-  padding-left: 3rem;
+  margin-top: 5rem;
+  padding-left: 8rem;
 }
 
 .adventikalendarium-content {
@@ -677,6 +677,18 @@ footer a {
 
 .adventikalendarium ul li:last-child .revealed {
   line-height: 123px;
+}
+
+.adventikalendarium a {
+  text-decoration: none;
+  color: #042423;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.adventikalendarium a:hover {
+  text-decoration: none;
+  color: #c80006;
 }
 
 .adventidoor {
@@ -765,3 +777,95 @@ footer a {
     left: auto;
   }
 }*/
+
+/* 4 - HÓGÖMB */
+
+.adventikalendarium-hogomb {
+  width: 100%;
+  height: auto;
+  color: #697e7f;
+  background-image: url("img/calandarbackground4.png");
+  background-size: contain;
+  background-position: top;
+}
+
+.hogomb-content {
+  width: 70%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #04242396;
+  padding-bottom: 10rem;
+}
+
+.hogomb-content h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 8rem;
+  padding-top: 7rem;
+  padding-bottom: 1rem;
+  --color: #d2ba87;
+  text-align: center;
+  -webkit-text-stroke: 0.6px #042423;
+  -webkit-text-fill-color: #eaebfa;
+}
+
+.hogomb-content h2 {
+  font-size: 3.2rem;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  -webkit-text-stroke: 0.2px #042423;
+  -webkit-text-fill-color: #eaebfa;
+}
+
+.hogomb-content h3 {
+  font-size: 2.6rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  -webkit-text-stroke: 0.2px #042423;
+  -webkit-text-fill-color: #eaebfa;
+  text-align: center;
+  line-height: 4rem;
+}
+
+.hogomb-content h4 {
+  font-size: 2.4rem;
+  padding-top: 5rem;
+  text-align: center;
+  -webkit-text-stroke: 0.2px #a8000d;
+  -webkit-text-fill-color: #eaebfa;
+}
+
+.hogomb-content p {
+  font-size: 2.4rem;
+  padding-top: 7rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  -webkit-text-stroke: 0.2px #a8000d;
+  -webkit-text-fill-color: #eaebfa;
+  line-height: 3.5rem;
+}
+
+.hogomb-content img {
+  float: none;
+  width: 80vh;
+  height: auto;
+  margin: 1rem 1rem;
+}
+
+#hogombsablon-link {
+  text-decoration: none;
+  font-size: 2rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  -webkit-text-stroke: 0.2px #a8000d;
+  -webkit-text-fill-color: #eaebfa;
+}
+
+#hogombsablon-link:hover {
+  --webkit-text-stroke: 0.3px #eaebfa;
+  -webkit-text-fill-color: #c67600;
+}
