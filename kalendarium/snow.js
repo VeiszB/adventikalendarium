@@ -22,13 +22,13 @@ function getRandom(min, max) {
 
     var words = 
     [
-      "<a href='../img/calandarbackground4.png'>Ady</a>", 
-      "ipsum ", 
-      "delor", 
+      "<a href='../kalendarium/decemberben1.html'>Decemberben</a>", 
+      "<a href='../kalendarium/faduc2.html'>Fadúc</a>", 
+      "<a href='../kalendarium/csillagzapor3.html'>Csillagzápor</a>", 
       "<a href='../kalendarium/hogomb4.html'>Hógömb</a>", 
-      "amet", 
+      "<a href='../kalendarium/oromillan5.html'>Öröm</a>", 
       "consect", 
-      "adipisci", 
+      "<a href='../kalendarium/akifazik7.html'>Aki fázik</a>", 
       "elit,", 
       "sed.", 
       "Eiusmod", 
