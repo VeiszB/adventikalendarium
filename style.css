@@ -1589,7 +1589,7 @@ footer a {
 
   .decemberben-content {
     width: 90%;
-    padding-bottom: 6rem;
+    padding-bottom: 10rem;
   }
 
   .decemberben-content h1 {
@@ -1709,5 +1709,9 @@ footer a {
   .akifazik-content div {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .revealed {
+    padding: 0rem;
   }
 }
