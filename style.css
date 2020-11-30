@@ -9,7 +9,6 @@ html {
 }
 
 body {
-  background-image: url("img/wedding-landing-background.png");
   font-family: "Libre Baskerville", serif;
 }
 
@@ -963,8 +962,10 @@ footer a {
   height: auto;
   color: #697e7f;
   background-image: url("img/calandarbackground4.png");
-  background-size: contain;
+  background-size: cover;
   background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .hogomb-content {
@@ -1142,6 +1143,12 @@ footer a {
 
 .forrocsoki-recept a {
   text-decoration: none;
+}
+
+#jatek-text {
+  font-family: "IM Fell Great Primer", serif;
+  font-style: italic;
+  line-height: 5rem;
 }
 
 /*---------------------------------------------------------------------------- */
