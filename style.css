@@ -104,6 +104,7 @@ header {
   height: 20vh;
   width: 50%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -1184,5 +1185,150 @@ footer a {
 
   .adventikalendarium .revealed {
     padding-top: 3rem;
+  }
+}
+
+/*---------------------------------------------------------------------------- */
+/* ------------------------- media query 1320 ------------------------------------- */
+
+@media screen and (max-width: 1320px) {
+  .header-text h1 {
+    font-size: 7rem;
+    word-wrap: wrap;
+  }
+  .header-text h2 {
+    font-size: 2.4rem;
+  }
+
+  .button-kalendarium {
+    padding: 2rem 2rem;
+  }
+
+  .button-rolunk {
+    padding: 2rem 2rem;
+  }
+}
+
+/*---------------------------------------------------------------------------- */
+/* ------------------------- media query 1140 ------------------------------------- */
+
+@media screen and (max-width: 1140px) {
+  .button-kalendarium .button-rolunk {
+    padding: 1rem 1rem;
+  }
+
+  .tartalom ul {
+    width: 80%;
+    justify-content: space-evenly;
+  }
+}
+
+/*---------------------------------------------------------------------------- */
+/* ------------------------- media query 664 ------------------------------------- */
+
+@media screen and (max-width: 664px) {
+  .header-text h1 {
+    font-size: 5rem;
+    padding-top: 3rem;
+  }
+
+  .button-kalendarium {
+    font-size: 1.6rem;
+  }
+
+  .button-kalendarium {
+    margin-top: 2rem;
+    padding: 1.5rem;
+  }
+
+  .button-rolunk {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+  }
+
+  .about-content {
+    width: 90%;
+  }
+
+  .about h1 {
+    font-size: 4rem;
+    word-wrap: break-word;
+    padding-top: 3rem;
+  }
+
+  .about-card img {
+    margin: 2rem 2rem;
+  }
+
+  .tartalom h1 {
+    font-size: 4rem;
+  }
+
+  .tartalom ul {
+    width: 80%;
+    justify-content: space-evenly;
+  }
+}
+
+/*---------------------------------------------------------------------------- */
+/* ------------------------- media query 390 ------------------------------------- */
+
+@media screen and (max-width: 390px) {
+  .about-content {
+    padding: 4rem 0rem;
+  }
+
+  .about-card img {
+    margin: 0rem;
+  }
+
+  .about-text {
+    width: 90%;
+  }
+
+  .about p {
+    padding-bottom: 3rem;
+  }
+
+  .kinek {
+    padding: 0rem 2rem;
+  }
+
+  .kinek-text {
+    width: 90%;
+    padding-bottom: 5rem;
+  }
+  .kinek h1 {
+    font-size: 4rem;
+  }
+
+  .kinek h3 {
+    font-size: 3.4rem;
+  }
+
+  .kinek p {
+    line-height: 3rem;
+  }
+
+  .tartalom p {
+    font-size: 1.8rem;
+  }
+
+  .tartalom ul {
+    width: 80%;
+    justify-content: space-evenly;
+  }
+
+  .contact h1 {
+    font-size: 4rem;
+  }
+
+  .contact {
+    padding: 2rem;
+  }
+
+  .contact p {
+    font-size: 1.6rem;
   }
 }
