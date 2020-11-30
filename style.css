@@ -1207,6 +1207,10 @@ footer a {
   .button-rolunk {
     padding: 2rem 2rem;
   }
+
+  #jatek-text {
+    font-size: 4rem;
+  }
 }
 
 /*---------------------------------------------------------------------------- */
@@ -1220,6 +1224,98 @@ footer a {
   .tartalom ul {
     width: 80%;
     justify-content: space-evenly;
+  }
+  .irodalomhaza-img {
+    float: none;
+    width: 90%;
+    margin: 2rem;
+  }
+
+  .adventikalendarium h1 {
+    font-size: 6rem;
+    padding-top: 3rem;
+  }
+
+  .decemberben-content h1 {
+    font-size: 6rem;
+  }
+
+  iframe {
+    width: 660px;
+    height: 415px;
+  }
+
+  .faduc-content h1 {
+    font-size: 6rem;
+    padding-bottom: 1rem;
+  }
+
+  .faduc-content p {
+    font-size: 2rem;
+  }
+
+  .faduc-content div {
+    padding-bottom: 2rem;
+  }
+
+  .csillagzapor-content h1 {
+    font-size: 6rem;
+    padding-bottom: 1rem;
+  }
+  .csillagzapor-content div {
+    padding-bottom: 2rem;
+  }
+
+  .csillagzapor-content p {
+    font-size: 2rem;
+  }
+
+  #jatek-text {
+    font-size: 2.8rem;
+    line-height: 4rem;
+  }
+
+  .hogomb-content {
+    width: 85%;
+    padding: 2rem;
+  }
+
+  .hogomb-content h1 {
+    font-size: 6rem;
+    padding-bottom: 1rem;
+  }
+
+  .hogomb-content h2 {
+    font-size: 2.8rem;
+    padding-top: 4rem;
+  }
+
+  .hogomb-content h3 {
+    font-size: 2rem;
+    padding-top: 2rem;
+  }
+
+  .hogomb-content p {
+    padding-top: 5rem;
+    font-size: 2rem;
+  }
+
+  .akifazik-content {
+    width: 85%;
+  }
+
+  .akifazik-content h1 {
+    font-size: 6rem;
+    padding-bottom: 1rem;
+  }
+
+  .akifazik-content h2 {
+    font-size: 5rem;
+    padding-top: 3rem;
+  }
+
+  .akifazik-content p {
+    font-size: 2rem;
   }
 }
 
@@ -1268,6 +1364,125 @@ footer a {
   .tartalom ul {
     width: 80%;
     justify-content: space-evenly;
+  }
+
+  .irodalomhaza-img {
+    float: none;
+    width: 90%;
+    margin: 2rem;
+  }
+
+  .adventikalendarium h1 {
+    font-size: 5rem;
+    padding-top: 3rem;
+  }
+
+  .decemberben-content {
+    width: 90%;
+    padding-bottom: 6rem;
+  }
+
+  .decemberben-content h1 {
+    font-size: 5rem;
+    padding-top: 5rem;
+  }
+
+  iframe {
+    width: 560px;
+    height: 315px;
+  }
+
+  .faduc-content {
+    width: 90%;
+  }
+
+  .faduc-content h1 {
+    font-size: 5rem;
+    padding-bottom: 1rem;
+  }
+
+  .faduc-content p {
+    line-height: 2.5rem;
+  }
+
+  .faduc-content div {
+    padding-bottom: 1rem;
+  }
+
+  .faduc-content img {
+    width: 90%;
+  }
+
+  .csillagzapor-content {
+    width: 90%;
+  }
+
+  .csillagzapor-content h1 {
+    font-size: 5rem;
+    padding-bottom: 1rem;
+  }
+
+  #jatek-text {
+    font-size: 2.8rem;
+    line-height: 3.4rem;
+  }
+
+  .hogomb-content {
+    width: 90%;
+    padding: 2rem;
+  }
+
+  .hogomb-content h1 {
+    font-size: 5rem;
+    padding-bottom: 1rem;
+  }
+
+  .hogomb-content h2 {
+    font-size: 2.4rem;
+    padding-top: 4rem;
+  }
+
+  .hogomb-content h3 {
+    font-size: 1.8rem;
+    padding-top: 2rem;
+  }
+
+  .hogomb-content p {
+    padding-top: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .hogomb-content img {
+    width: 90%;
+  }
+
+  .akifazik-content {
+    width: 85%;
+  }
+
+  .akifazik-content h1 {
+    font-size: 5rem;
+    padding-bottom: 1rem;
+  }
+
+  .akifazik-content h2 {
+    font-size: 4.6rem;
+    padding-top: 3rem;
+  }
+
+  .akifazik-content p {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .akifazik-content img {
+    float: none;
+    width: 90%;
+    padding: 2rem;
+    margin-left: 2rem;
   }
 }
 
@@ -1330,5 +1545,169 @@ footer a {
 
   .contact p {
     font-size: 1.6rem;
+  }
+
+  .museumtortenet-content h1 {
+    font-size: 3.6rem;
+  }
+
+  .irodalomhaza-img {
+    float: none;
+    width: 90%;
+    margin: 2rem;
+  }
+
+  #whitelogo {
+    padding-top: 1rem;
+    padding-left: 18rem;
+  }
+
+  .adventikalendarium-decemberben {
+    width: 100%;
+    height: auto;
+    color: #697e7f;
+    background-image: url("img/calandarbackground4.png");
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+
+  .adventikalendarium-content {
+    padding: 0rem 1rem;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .adventikalendarium h1 {
+    font-size: 3.8rem;
+    padding-top: 3rem;
+    text-shadow: 1px 1px 1px #77a3a3;
+  }
+
+  .decemberben-content {
+    width: 90%;
+    padding-bottom: 6rem;
+  }
+
+  .decemberben-content h1 {
+    font-size: 3.6rem;
+    padding-top: 4rem;
+  }
+
+  iframe {
+    width: 300px;
+    height: 215px;
+  }
+
+  .faduc-content {
+    width: 90%;
+  }
+
+  .faduc-content h1 {
+    font-size: 3.6rem;
+    padding-bottom: 0rem;
+  }
+
+  .faduc-content p {
+    line-height: 2rem;
+    font-size: 1.6rem;
+  }
+
+  .faduc-content div {
+    padding-bottom: 1rem;
+  }
+
+  .faduc-content img {
+    width: 90%;
+  }
+
+  .csillagzapor-content {
+    width: 90%;
+    padding-bottom: 5rem;
+  }
+
+  .csillagzapor-content h1 {
+    font-size: 3.6rem;
+    padding-bottom: 0rem;
+  }
+  .csillagzapor-content h2 {
+    padding-top: 3rem;
+  }
+
+  .csillagzapor-content p {
+    font-size: 1.4rem;
+    margin-top: 0rem;
+    padding: 1rem;
+  }
+
+  #jatek-text {
+    font-size: 2rem;
+    line-height: 3.4rem;
+  }
+
+  .hogomb-content {
+    width: 90%;
+    padding: 2rem;
+  }
+
+  .hogomb-content h1 {
+    font-size: 3.6rem;
+    padding-bottom: 1rem;
+  }
+
+  .hogomb-content h2 {
+    font-size: 2rem;
+    padding-top: 4rem;
+  }
+
+  .hogomb-content h3 {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+  }
+
+  .hogomb-content p {
+    padding-top: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+
+  .hogomb-content img {
+    width: 90%;
+  }
+
+  .akifazik-content {
+    width: 85%;
+  }
+
+  .akifazik-content h1 {
+    font-size: 3.6rem;
+    padding-bottom: 1rem;
+  }
+
+  .akifazik-content h2 {
+    font-size: 3.2rem;
+    padding-top: 1.5rem;
+  }
+
+  .akifazik-content p {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+
+  .akifazik-content img {
+    float: none;
+    width: 90%;
+    padding: 2rem;
+    margin-left: 2rem;
+  }
+
+  .akifazik-content div {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 }
