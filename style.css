@@ -1484,6 +1484,18 @@ footer a {
     padding: 2rem;
     margin-left: 2rem;
   }
+
+  .revealed {
+    padding: 0rem;
+  }
+
+  .door {
+    padding-top: 2rem;
+  }
+
+  .door p {
+    margin-top: 2rem;
+  }
 }
 
 /*---------------------------------------------------------------------------- */
