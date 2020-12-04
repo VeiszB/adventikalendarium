@@ -31,9 +31,9 @@ function getRandom(min, max) {
       "<a href='../kalendarium/akifazik7.html'>Aki fázik</a>", 
       "<a href='../kalendarium/karacsonyfa8.html'>Karácsonyfa</a>", 
       "sed.", 
-      "Eiusmod", 
-      "tempor", 
-      "a", 
+      "<a href='../kalendarium/teafilter10.html'>Teafilter</a>", 
+      "<a href='../kalendarium/toll11.html'>Toll</a>", 
+      "<a href='../kalendarium/csendul12.html'>Csendül</a>", 
       "enim", 
       "minim", 
       "season",
@@ -61,21 +61,21 @@ function getRandom(min, max) {
       $("#message").text(message).show();
     }  
   
-    //day=25; // uncomment to skip to 25
+    day=24; // uncomment to skip to 25
   
     // Only work in December
-    if(month === 11) {
+    if(month === 12) {
       // Loop through each calendar window
       $("li").each( function( index ) {
         var adventwindow = index + 1;
         var item = $(this);
   
-        /*// Open past windows
+        // Open past windows
         if( day !== adventwindow && adventwindow < day ) {
           window.setTimeout(function(){
             item.children(".adventidoor").addClass("open");
           }, timeDelay);
-        }*/
+        }
   
         // timeout offset for past window opening animation
         timeDelay += 100;
