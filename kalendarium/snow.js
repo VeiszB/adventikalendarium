@@ -35,7 +35,7 @@ function getRandom(min, max) {
       "<a href='../kalendarium/toll11.html'>Toll</a>", 
       "<a href='../kalendarium/csendul12.html'>Csendül</a>", 
       "<a href='../kalendarium/januar13.html'>Január</a>", 
-      "minim", 
+      "<a href='../kalendarium/fenyoszagu14.html'>Fenyőszagú</a>", 
       "<a href='../kalendarium/rajzolt15.html'>Rajzolt</a>",
        "<a href='../kalendarium/hoember16.html'>Hóember</a>", 
        "dolore", 
