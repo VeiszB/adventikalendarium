@@ -1163,6 +1163,19 @@ footer a {
   transform: scale(-1, 1);
 }
 
+#megfejtes {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  background-color: #084644af;
+  color: #d2ba87;
+  font-size: 1.8rem;
+  padding: 1rem 2.5rem;
+  border-radius: 10px;
+  font-family: "IM Fell Great Primer", serif;
+  border: 1px solid #d2ba87fd;
+}
+
 /*---------------------------------------------------------------------------- */
 /*---------------------------------------------------------------------------- */
 /* ------------------------- media query ------------------------------------- */

@@ -16,6 +16,17 @@ function getRandom(min, max) {
   })();
 
 
+  $("button").on("click", function() {
+    var el = $(this);
+    if (el.text() == el.data("text-swap")) {
+      el.text(el.data("text-original"));
+    } else {
+      el.data("text-original", el.text());
+      el.text(el.data("text-swap"));
+    }
+  });
+
+
   /* ___________ Kalendár ablakok ____________ */
 
   $( document ).ready(function() {
@@ -38,15 +49,14 @@ function getRandom(min, max) {
       "<a href='../kalendarium/fenyoszagu14.html'>Fenyőszagú</a>", 
       "<a href='../kalendarium/rajzolt15.html'>Rajzolt</a>",
        "<a href='../kalendarium/hoember16.html'>Hóember</a>", 
-       "dolore", 
-       "sint", 
-       "id", 
-       "est", 
-       "laboris", 
-       "ut.", 
-       "aute", 
-       "laborum", 
-       "toe"
+       "<a href='../kalendarium/rejtett17.html'>Rejtett</a>", 
+       "18", 
+       "19", 
+       "20", 
+       "21", 
+       "22.", 
+       "<a href='../kalendarium/tintakrol23.html'>Tintákról</a>", 
+       "24"
       ];
   
     var message = "";
