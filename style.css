@@ -1176,6 +1176,78 @@ footer a {
   border: 1px solid #d2ba87fd;
 }
 
+.mezeskalacsos-content {
+  width: 70%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #04242396;
+  padding-bottom: 10rem;
+}
+
+.mezeskalacsos-content h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 8rem;
+  padding-top: 7rem;
+  padding-bottom: 1rem;
+  --color: #d2ba87;
+  text-align: center;
+  --webkit-text-stroke: 0.6px #042423;
+  text-shadow: -2px -2px 0 #042423, 2px -2px 0 #042423, -2px 2px 0 #042423,
+    2px 2px 0 #042423;
+  -webkit-text-fill-color: #eaebfa;
+  letter-spacing: 4px;
+}
+
+.mezeskalacsos-content h2 {
+  font-size: 3.2rem;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  -webkit-text-stroke: 0.2px #042423;
+  -webkit-text-fill-color: #eaebfa;
+}
+
+.mezeskalacsos-contentt h3 {
+  font-size: 2.6rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  -webkit-text-stroke: 0.2px #042423;
+  -webkit-text-fill-color: #eaebfa;
+  text-align: center;
+  line-height: 4rem;
+}
+
+.mezeskalacsos-content h4 {
+  font-size: 2.4rem;
+  padding-top: 5rem;
+  text-align: center;
+  -webkit-text-stroke: 0.2px #a8000d;
+  -webkit-text-fill-color: #eaebfa;
+}
+
+.mezeskalacsos-content p {
+  width: 85%;
+  margin: auto;
+  font-size: 2.4rem;
+  padding-top: 7rem;
+  padding-bottom: 1rem;
+  text-align: left;
+  -webkit-text-stroke: 0.2px #a8000d;
+  -webkit-text-fill-color: #eaebfa;
+  line-height: 3.5rem;
+}
+
+.mezeskalacsos-content img {
+  float: none;
+  width: 80vh;
+  height: auto;
+  margin: 1rem 1rem;
+}
+
 /*---------------------------------------------------------------------------- */
 /*---------------------------------------------------------------------------- */
 /* ------------------------- media query ------------------------------------- */
@@ -1320,6 +1392,31 @@ footer a {
   }
 
   .hogomb-content p {
+    padding-top: 5rem;
+    font-size: 2rem;
+  }
+
+  .mezeskalacsos-content {
+    width: 85%;
+    padding: 2rem;
+  }
+
+  .mezeskalacsos-content h1 {
+    font-size: 6rem;
+    padding-bottom: 1rem;
+  }
+
+  .mezeskalacsos-content h2 {
+    font-size: 2.8rem;
+    padding-top: 4rem;
+  }
+
+  .mezeskalacsos-content h3 {
+    font-size: 2rem;
+    padding-top: 2rem;
+  }
+
+  .mezeskalacsos-content p {
     padding-top: 5rem;
     font-size: 2rem;
   }
@@ -1480,6 +1577,38 @@ footer a {
   }
 
   .hogomb-content img {
+    width: 90%;
+  }
+
+  .mezeskalacsos-content {
+    width: 90%;
+    padding: 2rem;
+  }
+
+  .mezeskalacsos-content h1 {
+    font-size: 5rem;
+    padding-bottom: 1rem;
+  }
+
+  .mezeskalacsos-content h2 {
+    font-size: 2.4rem;
+    padding-top: 4rem;
+  }
+
+  .mezeskalacsos-content h3 {
+    font-size: 1.8rem;
+    padding-top: 2rem;
+  }
+
+  .mezeskalacsos-content p {
+    padding-top: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .mezeskalacsos-content img {
     width: 90%;
   }
 
@@ -1713,6 +1842,38 @@ footer a {
   }
 
   .hogomb-content img {
+    width: 90%;
+  }
+
+  .mezeskalacsos-content {
+    width: 90%;
+    padding: 2rem;
+  }
+
+  .mezeskalacsos-content h1 {
+    font-size: 3.6rem;
+    padding-bottom: 1rem;
+  }
+
+  .mezeskalacsos-content h2 {
+    font-size: 2rem;
+    padding-top: 4rem;
+  }
+
+  .mezeskalacsos-content h3 {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+  }
+
+  .mezeskalacsos-content p {
+    padding-top: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+
+  .mezeskalacsos-content img {
     width: 90%;
   }
 

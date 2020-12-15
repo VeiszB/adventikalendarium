@@ -50,11 +50,11 @@ function getRandom(min, max) {
       "<a href='../kalendarium/rajzolt15.html'>Rajzolt</a>",
        "<a href='../kalendarium/hoember16.html'>Hóember</a>", 
        "<a href='../kalendarium/rejtett17.html'>Rejtett</a>", 
-       "18", 
-       "19", 
+       "<a href='../kalendarium/mezeskalacsos18.html'>Mézeskalácsos</a>", 
+       "<a href='../kalendarium/recept19.html'>Recept</a>", 
        "20", 
-       "21", 
-       "22.", 
+       "<a href='../kalendarium/angyal21.html'>Angyal</a>", 
+       "22", 
        "<a href='../kalendarium/tintakrol23.html'>Tintákról</a>", 
        "24"
       ];
