@@ -56,7 +56,7 @@ function getRandom(min, max) {
        "<a href='../kalendarium/angyal21.html'>Angyal</a>", 
        "<a href='../kalendarium/cinke22.html'>Cinke</a>", 
        "<a href='../kalendarium/tintakrol23.html'>Tintákról</a>", 
-       "24"
+       "<a href='../kalendarium/gyertyafeny24.html'>Gyertyafény</a>"
       ];
   
     var message = "";
